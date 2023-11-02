@@ -32,7 +32,7 @@ if toppingPizza == "1":
     print("| 1. | Pan                       |         Rp 0               |")
     print("| 2. | StuffedCrust Cheese       |         Rp 11.818          |")
     print("| 3. | StuffedCrust Sausage      |         Rp 9.091           |")
-    print("| 4. | Cheese Bites              |         Rp 13.636          |")
+    print("| 4. | Cheesy Bites              |         Rp 13.636          |")
     print("| 5. | Crown Crust               |         Rp 11.818          |")
     print("+=============================================================+")
 
@@ -40,7 +40,7 @@ if toppingPizza == "1":
     pan = 0
     stuffedCrustCheese = 11818
     stuffedCrustSausage = 9091
-    cheeseBites = 13636
+    cheesyBites = 13636
     crownCrust = 11818
 
     # Meminta pelanggan untuk memilih crust
@@ -315,7 +315,7 @@ if toppingPizza == "1":
             print("Ukuran Pizza yang Anda pilih tidak tersedia")
     elif pilihanCrust == "4":
         # Jika crust yang dipilih adalah Cheese Bites
-        print("Anda telah memilih Cheese Bites")
+        print("Anda telah memilih Cheesy Bites")
         # Menampilkan daftar ukuran pizza beserta harga
         print("Berikut adalah ukuran pizza yang tersedia beserta dengan harganya: ")
         print("+=============================================================+")
@@ -345,14 +345,14 @@ if toppingPizza == "1":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + personal + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + personal + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + personal)
+                hargaPizza = (hargaTopping + cheesyBites + personal)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         elif ukuranPizza == "2":
@@ -367,14 +367,14 @@ if toppingPizza == "1":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + regular + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + regular + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + regular)
+                hargaPizza = (hargaTopping + cheesyBites + regular)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         elif ukuranPizza == "3":
@@ -389,14 +389,14 @@ if toppingPizza == "1":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + large + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + large + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + large)
+                hargaPizza = (hargaTopping + cheesyBites + large)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         else:
@@ -506,7 +506,7 @@ elif toppingPizza == "2":
     print("| 1. | Pan                       |         Rp 0               |")
     print("| 2. | StuffedCrust Cheese       |         Rp 11.818          |")
     print("| 3. | StuffedCrust Sausage      |         Rp 9.091           |")
-    print("| 4. | Cheese Bites              |         Rp 13.636          |")
+    print("| 4. | Cheesy Bites              |         Rp 13.636          |")
     print("| 5. | Crown Crust               |         Rp 11.818          |")
     print("+=============================================================+")
 
@@ -514,7 +514,7 @@ elif toppingPizza == "2":
     pan = 0
     stuffedCrustCheese = 11818
     stuffedCrustSausage = 9091
-    cheeseBites = 13636
+    cheesyBites = 13636
     crownCrust = 11818
 
     # Meminta pelanggan untuk memilih crust
@@ -789,7 +789,7 @@ elif toppingPizza == "2":
             print("Ukuran Pizza yang Anda pilih tidak tersedia")
     elif pilihanCrust == "4":
         # Jika crust yang dipilih adalah Cheese Bites
-        print("Anda telah memilih Cheese Bites")
+        print("Anda telah memilih Cheesy Bites")
         # Menampilkan daftar ukuran pizza beserta harga
         print("Berikut adalah ukuran pizza yang tersedia beserta dengan harganya: ")
         print("+=============================================================+")
@@ -819,14 +819,14 @@ elif toppingPizza == "2":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + personal + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + personal + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + personal)
+                hargaPizza = (hargaTopping + cheesyBites + personal)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         elif ukuranPizza == "2":
@@ -841,14 +841,14 @@ elif toppingPizza == "2":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + regular + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + regular + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + regular)
+                hargaPizza = (hargaTopping + cheesyBites + regular)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         elif ukuranPizza == "3":
@@ -863,14 +863,14 @@ elif toppingPizza == "2":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + large + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + large + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + large)
+                hargaPizza = (hargaTopping + cheesyBites + large)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         else:
@@ -979,7 +979,7 @@ elif toppingPizza == "3":
     print("| 1. | Pan                       |         Rp 0               |")
     print("| 2. | StuffedCrust Cheese       |         Rp 11.818          |")
     print("| 3. | StuffedCrust Sausage      |         Rp 9.091           |")
-    print("| 4. | Cheese Bites              |         Rp 13.636          |")
+    print("| 4. | Cheesy Bites              |         Rp 13.636          |")
     print("| 5. | Crown Crust               |         Rp 11.818          |")
     print("+=============================================================+")
 
@@ -987,7 +987,7 @@ elif toppingPizza == "3":
     pan = 0
     stuffedCrustCheese = 11818
     stuffedCrustSausage = 9091
-    cheeseBites = 13636
+    cheesyBites = 13636
     crownCrust = 11818
 
     # Meminta pelanggan untuk memilih crust
@@ -1262,7 +1262,7 @@ elif toppingPizza == "3":
             print("Ukuran Pizza yang Anda pilih tidak tersedia")
     elif pilihanCrust == "4":
         # Jika crust yang dipilih adalah Cheese Bites
-        print("Anda telah memilih Cheese Bites")
+        print("Anda telah memilih Cheesy Bites")
         # Menampilkan daftar ukuran pizza beserta harga
         print("Berikut adalah ukuran pizza yang tersedia beserta dengan harganya: ")
         print("+=============================================================+")
@@ -1292,14 +1292,14 @@ elif toppingPizza == "3":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + personal + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + personal + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + personal)
+                hargaPizza = (hargaTopping + cheesyBites + personal)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         elif ukuranPizza == "2":
@@ -1314,14 +1314,14 @@ elif toppingPizza == "3":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + regular + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + regular + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + regular)
+                hargaPizza = (hargaTopping + cheesyBites + regular)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         elif ukuranPizza == "3":
@@ -1336,14 +1336,14 @@ elif toppingPizza == "3":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + large + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + large + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + large)
+                hargaPizza = (hargaTopping + cheesyBites + large)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         else:
@@ -1452,7 +1452,7 @@ elif toppingPizza == "4":
     print("| 1. | Pan                       |         Rp 0               |")
     print("| 2. | StuffedCrust Cheese       |         Rp 11.818          |")
     print("| 3. | StuffedCrust Sausage      |         Rp 9.091           |")
-    print("| 4. | Cheese Bites              |         Rp 13.636          |")
+    print("| 4. | Cheesy Bites              |         Rp 13.636          |")
     print("| 5. | Crown Crust               |         Rp 11.818          |")
     print("+=============================================================+")
 
@@ -1460,7 +1460,7 @@ elif toppingPizza == "4":
     pan = 0
     stuffedCrustCheese = 11818
     stuffedCrustSausage = 9091
-    cheeseBites = 13636
+    cheesyBites = 13636
     crownCrust = 11818
 
     # Meminta pelanggan untuk memilih crust
@@ -1735,7 +1735,7 @@ elif toppingPizza == "4":
             print("Ukuran Pizza yang Anda pilih tidak tersedia")
     elif pilihanCrust == "4":
         # Jika crust yang dipilih adalah Cheese Bites
-        print("Anda telah memilih Cheese Bites")
+        print("Anda telah memilih Cheesy Bites")
         # Menampilkan daftar ukuran pizza beserta harga
         print("Berikut adalah ukuran pizza yang tersedia beserta dengan harganya: ")
         print("+=============================================================+")
@@ -1765,14 +1765,14 @@ elif toppingPizza == "4":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + personal + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + personal + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + personal)
+                hargaPizza = (hargaTopping + cheesyBites + personal)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         elif ukuranPizza == "2":
@@ -1787,14 +1787,14 @@ elif toppingPizza == "4":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + regular + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + regular + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + regular)
+                hargaPizza = (hargaTopping + cheesyBites + regular)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         elif ukuranPizza == "3":
@@ -1809,14 +1809,14 @@ elif toppingPizza == "4":
                 # Jika extra cheese yang dipilih adalah y
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + large + tambahKeju)
+                hargaPizza = (hargaTopping + cheesyBites + large + tambahKeju)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
             else:
                 # Jika extra cheese yang dipilih adalah n
                 print("Jadi, total yang harus Anda bayar yaitu sebesar: ")
                 # Inisialisasi harga  pizza
-                hargaPizza = (hargaTopping + cheeseBites + large)
+                hargaPizza = (hargaTopping + cheesyBites + large)
                 # Menampilkan total harga pizza yang harus dibayar
                 print("Rp", hargaPizza)
         else:
